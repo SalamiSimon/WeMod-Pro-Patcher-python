@@ -47,8 +47,6 @@ def patch_app():
 
         source_path = os.path.join(os.getcwd(), 'app.asar')
         destination_path = os.path.join(app_folder, 'resources', 'app.asar')
-        print(f"Source path for new app.asar: {source_path}")  # Debugging log
-        print(f"Destination path for new app.asar: {destination_path}")  # Debugging log
 
         # Ensure the Backups directory exists
         backup_folder = os.path.join(os.getcwd(), 'Backups')
@@ -57,7 +55,6 @@ def patch_app():
             print(f"Backups folder created at: {backup_folder}")  # Debugging log
 
         backup_path = os.path.join(backup_folder, f'app_backup_{version}.asar')
-        print(f"Backup path: {backup_path}")  # Debugging log
 
         # Check if the original app.asar file exists before attempting to back it up
         if os.path.exists(destination_path):
@@ -69,7 +66,6 @@ def patch_app():
 
         # Copy the new app.asar file to the app-* folder, overwriting the existing one
         shutil.copy(source_path, destination_path)
-        print(f"New app.asar copied to {destination_path}.")  # Debugging log
 
     print(f"{Fore.GREEN}Patch successful.")
     wait_and_clear()
