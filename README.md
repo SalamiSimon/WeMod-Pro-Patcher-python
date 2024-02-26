@@ -5,7 +5,7 @@ WeMod Patcher is a Python script designed to unlock Pro features on WeMod. It ha
 ## Features
 
 - Unlock Pro on WeMod.
-- Tested on version: 8.13.14.
+- Tested on version: 8.13.15.
 - Option to patch the app or restore from backups.
 
 ## Requirements
@@ -17,7 +17,7 @@ WeMod Patcher is a Python script designed to unlock Pro features on WeMod. It ha
 ## Usage
 
 1. Run `py install_requirements.py` to install necessary dependencies.
-2. Execute the main script: `py main_script.py`.
+2. Execute the main script: `py Wemod_ProUnlocker.py`.
 3. Follow the on-screen menu to patch or restore the WeMod app.
 
 ## Options

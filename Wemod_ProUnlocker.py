@@ -14,7 +14,7 @@ def display_start_menu():
     print("By Sten\n")
 
     print(f"{Fore.GREEN}Unlocks Pro on WeMod.")
-    print(f"{Fore.YELLOW}Tested on version: 8.13.14")
+    print(f"{Fore.YELLOW}Tested on version: 8.13.15")
     print(f"{Fore.RED}What doesn't work: RC from phone (this feature is server-side)\n")
 
     print(f"{Style.BRIGHT}Instructions:")
