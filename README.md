@@ -8,7 +8,7 @@ WeMod Patcher is a Python script designed to unlock Pro features on WeMod.
 - Option to patch the app or restore from backups.
 
 - RC from the phone does not work, as this feature is server-side.
-- Tested on version: 8.20.0.
+- Tested on version: 8.13.15.
 - Block "Update.exe" in firewall
 
 ## Requirements
